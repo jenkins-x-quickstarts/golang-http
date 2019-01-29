@@ -7,3 +7,6 @@
 target
 work
 bin/
+
+coverage.txt
+coverage.html
