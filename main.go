@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"golang-http/examplepackage"
 	"log"
 	"net/http"
 )
@@ -19,7 +18,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	fmt.Fprintf(w, "Hello from:  "+title+"\n")
-	examplepackage.Greetings()
 }
 
 func main() {
